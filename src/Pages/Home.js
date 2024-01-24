@@ -17,9 +17,10 @@ const Home = () => {
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
                         >
-                          <b className="is-hidden">Sanajit Jana</b>
-                          <b className="is-hidden">Designer</b>
-                          <b className="is-visible">Developer</b>
+                          {/* <b className="is-hidden">Romário Almeida</b> */}
+                          <b className="is-hidden">Front End</b>
+                          <b className="is-visible">Back End</b>
+                          <b className="is-hidden">Streamer</b>
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
@@ -97,19 +98,18 @@ const Home = () => {
                 <div className="row">
                   <div className="col-md-12">
                     <div className="main-title text-center wow fadeIn">
-                      <h3>What I do</h3>
+                      <h3>Sobre</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
+                        Meu nome é Romário e sou Desenvolvedor de full stack.
+                        Tenho experiência atuando em projetos diversos, tanto em
+                        posições de Front-End quanto Back-End. Sou movido por
+                        desafios e tenho muita vontade de aprender coisas novas
+                        sempre. venho me especializando cada vez mais em
+                        tecnologia em frameworks relacionadas a o front-end,
+                        Também tenho conhecimento em diversas tecnologias como
+                        C#, PHP, React.js, React Native e Scrum.
                       </p>
                     </div>
                   </div>
@@ -171,7 +171,7 @@ const Home = () => {
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
+                        src="assets/img/romario.jpg"
                         alt="sanajit-jana"
                         className="about-img wow fadeIn"
                       />
@@ -180,39 +180,48 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
+                        <h3>Olá! Esse é o Romário</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
-                        web presence or an employer looking to hire, you can get
-                        in touch with me{" "}
+                        Richard
+                        McClintock, um professor de latim do Hampden-Sydney
+                        College na Virginia, pesquisou uma das mais obscuras
+                        palavras em latim, consectetur, oriunda de uma passagem
+                        de Lorem Ipsum, e, procurando por entre citações da
+                        palavra na literatura clássica, descobriu a sua
+                        indubitável origem. Lorem Ipsum vem das seções 1.10.32 e
+                        1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos
+                        do Bem e do Mal), de Cícero, escrito em 45 AC. Este
+                        livro é um tratado de teoria da ética muito popular na
+                        época da Renascença. A primeira linha de Lorem Ipsum,
+                        "Lorem Ipsum dolor sit amet..." vem de uma linha na
+                        seção 1.10.32. {" "}
                         <a className="underline2" href="#contact">
                           {" "}
                           here.
                         </a>{" "}
-                        I design and build digital products with simple and
-                        beautiful code. I specialize in custom web theme
-                        development and love what I do.
+                        O trecho padrão original de Lorem Ipsum,
+                        usado desde o século XVI, está reproduzido abaixo para
+                        os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus
+                        Bonorum et Malorum" de Cicero também foram reproduzidas
+                        abaixo em sua forma exata original, acompanhada das
+                        versões para o inglês da tradução feita por H. Rackham
+                        em 1914.
                         <br />
                         <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
+                        Ao contrário do que se acredita, Lorem Ipsum não é
+                        simplesmente um texto randômico. Com mais de 2000 anos,
+                        suas raízes podem ser encontradas em uma obra de
+                        literatura latina clássica datada de 45 AC.
                       </p>
                       <a
                         className="about-link-1"
                         href="assets/cv/sanajit-jana-profile.pdf"
                         target="_blank"
                       >
-                        See Resume
+                        ver resumo
                       </a>
                       <a className="about-link-2" href="#contact">
                         Hire Me
@@ -1274,14 +1283,14 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          href="mailto:romarioalmeidadev@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          contact.sanajitjana@gmail.com
+                          romarioalmeidadev@gmail.com
                         </a>
                       </div>
                     </div>
@@ -1291,7 +1300,7 @@ const Home = () => {
                           className="fa fa-mobile contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Phone</h3>
+                        <h3>Telefone:</h3>
                         <a
                           href="tel:8372876775"
                           style={{
@@ -1316,7 +1325,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div class="container-fluid map-col">
+                {/* <div class="container-fluid map-col">
                   <div class="col-md-12 col-sm-12 map-col">
                     <div class="google-maps">
                       <div class="map-wrap">
@@ -1333,7 +1342,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

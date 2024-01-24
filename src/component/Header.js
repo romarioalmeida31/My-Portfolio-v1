@@ -11,7 +11,7 @@ function Header() {
                 <div className="col-md-3 col-sm-3">
                   <div className="site-title">
                     <a href="/#home" style={{ textDecoration: "none" }}>
-                      <h3>Sanajit Jana</h3>
+                      <h3>Romário Almeida</h3>
                     </a>
                   </div>
                 </div>
@@ -41,22 +41,22 @@ function Header() {
                         </a>
                       </li>
                       <li>
-                        <a href="/#about">About</a>
+                        <a href="/#about">Sobre</a>
                       </li>
                       <li>
                         <a href="/#skill">Skill</a>
                       </li>
                       <li>
-                        <a href="/#resume">Education</a>
+                        <a href="/#resume">Educação</a>
                       </li>
                       <li>
-                        <a href="/#service">Service</a>
+                        <a href="/#service">Serviços</a>
                       </li>
                       <li>
                         <a href="/#blog">Blog</a>
                       </li>
                       <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/#contact">Contato</a>
                       </li>
                     </ul>
                   </div>
