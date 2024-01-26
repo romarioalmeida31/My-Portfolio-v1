@@ -185,26 +185,25 @@ const Home = () => {
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        Richard
-                        McClintock, um professor de latim do Hampden-Sydney
-                        College na Virginia, pesquisou uma das mais obscuras
-                        palavras em latim, consectetur, oriunda de uma passagem
-                        de Lorem Ipsum, e, procurando por entre citações da
-                        palavra na literatura clássica, descobriu a sua
-                        indubitável origem. Lorem Ipsum vem das seções 1.10.32 e
-                        1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos
-                        do Bem e do Mal), de Cícero, escrito em 45 AC. Este
-                        livro é um tratado de teoria da ética muito popular na
-                        época da Renascença. A primeira linha de Lorem Ipsum,
+                        Richard McClintock, um professor de latim do
+                        Hampden-Sydney College na Virginia, pesquisou uma das
+                        mais obscuras palavras em latim, consectetur, oriunda de
+                        uma passagem de Lorem Ipsum, e, procurando por entre
+                        citações da palavra na literatura clássica, descobriu a
+                        sua indubitável origem. Lorem Ipsum vem das seções
+                        1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os
+                        Extremos do Bem e do Mal), de Cícero, escrito em 45 AC.
+                        Este livro é um tratado de teoria da ética muito popular
+                        na época da Renascença. A primeira linha de Lorem Ipsum,
                         "Lorem Ipsum dolor sit amet..." vem de uma linha na
-                        seção 1.10.32. {" "}
+                        seção 1.10.32.{" "}
                         <a className="underline2" href="#contact">
                           {" "}
                           here.
                         </a>{" "}
-                        O trecho padrão original de Lorem Ipsum,
-                        usado desde o século XVI, está reproduzido abaixo para
-                        os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus
+                        O trecho padrão original de Lorem Ipsum, usado desde o
+                        século XVI, está reproduzido abaixo para os
+                        interessados. Seções 1.10.32 e 1.10.33 de "de Finibus
                         Bonorum et Malorum" de Cicero também foram reproduzidas
                         abaixo em sua forma exata original, acompanhada das
                         versões para o inglês da tradução feita por H. Rackham
@@ -233,7 +232,7 @@ const Home = () => {
             </div>
             <div className="work-counter text-center">
               <div className="counter">
-                <div className="container">
+                {/* <div className="container">
                   <div className="row wow fadeIn">
                     <div className="col-md-3 col-sm-6">
                       <div className="work-statistics">
@@ -284,7 +283,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -292,7 +291,7 @@ const Home = () => {
 
         {/* <!-- ================================ Skill =============================== --> */}
 
-        <div id="skill">
+        {/* <div id="skill">
           <div className="skill-main">
             <div className="container">
               <div className="row">
@@ -350,13 +349,13 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> 
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ RESUME =============================== --> */}
 
-        <div id="resume">
+        {/* <div id="resume">
           <div className="resume-content">
             <div className="resume-grid text-center">
               <div className="container">
@@ -519,7 +518,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-sm-4">
+                   <div className="col-md-4 col-sm-4">
                     <div className="exp-details" data-wow-delay=".4s">
                       <div className="exp-hover"></div>
                       <div className="exp-main">
@@ -535,16 +534,16 @@ const Home = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing.</p>
                       </div>
                     </div>
-                  </div> */}
+                  </div> 
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ WORK =============================== --> */}
 
-        {/* <div id="work">
+         <div id="work">
           <div className="work-content">
             <div className="work-grid">
               <div className="container">
@@ -677,11 +676,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div> */}
+        </div> 
 
         {/* <!-- ============================================== SERVICE ===================================================== --> */}
 
-        <div id="service">
+        {/* <div id="service">
           <div className="service-content">
             <div className="service-grid text-center">
               <div className="container">
@@ -936,11 +935,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ BLOG ========================== --> */}
 
-        <div id="blog">
+        {/* <div id="blog">
           <div className="blog-content">
             <div className="blog-grid">
               <div className="container">
@@ -1125,7 +1124,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- ================================ CONTACT ========================== --> */}
 
@@ -1137,12 +1136,12 @@ const Home = () => {
                   <div className="row">
                     <div className="col-md-12 col-sm-12">
                       <div className="main-title text-center wow fadeIn">
-                        <h3>Contact Me</h3>
+                        <h3>Contate-me</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I’m always open to discussing product design work or
-                          partnership opportunities.
+                          Estou sempre aberto para discutir o trabalho de
+                          desenvolvedor e ou oportunidades de parceria.
                         </p>
                       </div>
                     </div>
@@ -1271,8 +1270,8 @@ const Home = () => {
                           className="fa fa-map-marker contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Address</h3>
-                        <p>Kolkata, West Bengal, India</p>
+                        <h3>Endereço</h3>
+                        <p>São Paulo, São Paulo, Brasil</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
@@ -1309,7 +1308,7 @@ const Home = () => {
                             fontSize: "17px",
                           }}
                         >
-                          +91 8372876775
+                          +55 71996356933
                         </a>
                       </div>
                     </div>
